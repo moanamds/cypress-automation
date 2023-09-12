@@ -5,9 +5,9 @@
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:open>mobile":"cypress open --config viewportWidth=410 viewportHeigh=860",
+    "cy:open>mobile": "cypress open --config viewportWidth=410 viewportHeigh=860",
     "test": "cypress run",
-    "test:mobile":"cypress open --config viewportWidth=410 viewportHeigh=860",
+    "test:mobile": "cypress open --config viewportWidth=410 viewportHeigh=860"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
   "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
   "devDependencies": {
     "cypress": "12.14.0"
+  },
+  "dependencies": {
+    "lockfile": "^1.0.4"
   }
-
 }
